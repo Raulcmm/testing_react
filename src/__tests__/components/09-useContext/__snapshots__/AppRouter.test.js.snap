@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to AppRouter Match con el snap 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul
+          className="navbar-nav me-auto mb-2 mb-lg-0"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current="page"
+              className=" nav-item nav-link  active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current={null}
+              className=" nav-item nav-link "
+              href="/about"
+              onClick={[Function]}
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              aria-current={null}
+              className=" nav-item nav-link "
+              href="/login"
+              onClick={[Function]}
+            >
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="container"
+  >
+    <div>
+      <h1>
+        HomeScreen
+      </h1>
+      <hr />
+      <pre>
+        {"id":1,"name":"Raul"}
+      </pre>
+    </div>
+  </div>,
+]
+`;
